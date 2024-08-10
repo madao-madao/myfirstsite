@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <head>
+  <link rel="stylesheet" href="assets\style\style.css">
   <title>Главная</title> <!-- Заголовок страницы -->
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> <!-- Таблица символов RU -->
 </head>
@@ -9,7 +10,7 @@
   <nav> <!-- nav-navigation(по сайту)-->
     <a href="/">Главная</a> <a href="/profile">Профиль</a>
   </nav>
-  <div><!-- Блоки для разделения контента-->
+  <div class="gray"><!-- Блоки для разделения контента-->
     <h3>Лучшие шутеры в истории</h3> <!-- H заголовок третьего уровня -->
     <ol> <!--устанавливает нумерованный список-->
       <li>Стефен Карри <br> <img width="100px" src="/assets\images\SC.jpg
@@ -24,8 +25,8 @@
       "></li>
     </ol>
   </div>
-  <div>
-    <h3>Хайлайты</h3>
+  <div class="grey">
+    <h3 id="color-red">Хайлайты</h3> 
     <video controls="controls" loop="loop">
       <source src="/assets\videos\highlight.webm">
     </video>
